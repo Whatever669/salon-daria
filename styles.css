@@ -5,19 +5,22 @@ body {
 sections {
     display: flex;
     flex-direction: row;
-    
 }
+
 header {
     text-align: center;
 }
-header h2{
+
+header h2 {
     font-size: 50px;
 }
-header p{
+
+header p {
     font-size: 20px;
 }
+
 .logo img {
-max-width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -25,13 +28,14 @@ footer {
     text-align: center;
     height: 100%
 }
+
 .container {
     position: relative;
     text-align: center;
     color: black;
     height: 300px;
-
 }
+
 .centered {
     position: absolute;
     top: 50%;
@@ -46,7 +50,10 @@ footer {
 }
 
 #social {
-   width: 100px;
-float:right;
+    width: 100px;
+    float: right;
 }
-
+#social img {
+    height: auto;
+    width: auto;
+}

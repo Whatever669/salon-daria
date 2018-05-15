@@ -1,6 +1,6 @@
-@media (max-width:300px){
+@media (max-width:800px){
     sections {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
 }
