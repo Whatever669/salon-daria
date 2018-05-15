@@ -2,8 +2,9 @@ body {
     background-color: white;
 }
 
-.sections {
+sections {
     display: flex;
+    flex-direction: row;
     
 }
 header {
@@ -15,8 +16,9 @@ header h2{
 header p{
     font-size: 20px;
 }
-.logo {
-
+.logo img {
+max-width: 100%;
+    height: auto;
 }
 
 footer {
@@ -43,12 +45,8 @@ footer {
     object-fit: cover;
 }
 
-sections {
-    display: flex;
-    flex-direction: column;
-}
 #social {
-    position: relative;
-    text-align: right;
-    display: flex
+   width: 100px;
+float:right;
 }
+
