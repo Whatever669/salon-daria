@@ -1,6 +1,29 @@
-@media (max-width:800px){
+@media (max-width:1000px){
     sections {
         display: flex;
         flex-direction: column;
     }
+	.container img {
+	height:200px;
+	object-fit:cover;
+	}
+	.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+height: 200px;}
+
+header h2 {
+font-size:20px;
+}
+header p {
+	font-size:15px;
+}
+
 }
