@@ -1,5 +1,9 @@
 body {
     background-color: white;
+	height:100%;
+	padding:0px;
+	margin:0px;
+width:100%
 }
 
 sections {
@@ -31,7 +35,12 @@ header p {
 
 footer {
     text-align: center;
-    height: 100%
+    height: 80px;
+	background-color: #9ca0b3;
+	margin:0px;
+	padding:10px;
+	border-top-style:solid;
+	border-top-color:#d7e1f5;
 }
 
 .container {
@@ -46,23 +55,90 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+	text-decoration:none;
 }
 
 .container img {
     height: 100%;
     width: 100%;
     object-fit: cover;
+	flex-grow:1;
+
 }
 
 #social {
     width: 100px;
     float: right;
-}
-#social img {
-    height: auto;
-    width: auto;
+	height:100px;
+	display:flex;
+	
 }
 
 .start h2{
 font-size: 50px;
 }
+
+.main {
+	background-color: #9ca0b3;
+	padding-top:10px;
+	padding-left:10px;
+	padding-right:10px;
+	margin:0px;
+	max-width:100%;
+	text-align:center;
+}
+.start {
+height:100px;
+}
+.open {
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+}
+.sob {
+	margin-left:20px;
+}
+.pn-pt{
+	margin-right:20px;
+}
+
+.facebook {
+	height:50px;
+	width:50px;
+}
+.booksy {
+	height:50px;
+	width:50px;
+}
+.usluga {
+	padding:10px;
+	width:100%;
+	height:auto;
+	background-color: #9ca0b3;
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+
+}
+.photo {
+	height:200px;
+	width:200px;
+	background-color:white;
+	border-radius:50%;
+	margin-top:50px;
+	margin-bottom:50px;
+	margin-left:100px;
+	margin-right:100px;
+}
+
+sections a:link{
+	color:black;
+}
+sections a:visited{
+	color:black;
+}
+.start a:link {
+	color:black;
+}
+.start a:visited{
+color:black;}
