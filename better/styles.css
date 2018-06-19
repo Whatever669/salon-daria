@@ -1,0 +1,217 @@
+body {
+    background-color: white;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+	font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+sections {
+    display: flex;
+    flex-direction: row;
+}
+
+header {
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+}
+
+header h2 {
+    font-size: 50px;
+    padding: 0px;
+    margin: 0px;
+}
+
+header p {
+    font-size: 20px;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    height: 80px;
+    background-color: #9ca0b3;
+    padding-top: 2em;
+    border-top-style: dotted;
+    border-top-color: #d7e1f5;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+    height: 500px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    font-size: 50px;
+    border: solid;
+    padding: 0.2em;
+}
+
+.container img {
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+
+
+.start h2 {
+    font-size: 50px;
+}
+
+.main {
+    background-color: #9ca0b3;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.start {
+    height: 200px;
+}
+
+.open {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sob {
+    margin-left: 20px;
+}
+
+.pn-pt {
+    margin-right: 20px;
+}
+
+
+.usluga {
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    background-color: #9ca0b3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 4em;
+}
+.pracownik {
+margin:10px;
+width:300px;
+
+}
+
+.photo {
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+
+sections a:link {
+    color: black;
+}
+
+sections a:visited {
+    color: black;
+}
+
+.start a:link {
+    color: black;
+}
+
+.start a:visited {
+    color: black;
+}
+
+.main h1 {
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
+    border-bottom: dotted;
+    border-bottom-color: #d7e1f5;
+    padding: 0.2em;
+}
+
+.row {
+	height:500px;
+	width:100%;
+}
+.row img {
+	object-fit:cover;
+	height:500px;
+}
+
+.mySlides img {
+	max-height:1000px;
+	object-fit:cover;
+}
+img.demo.cursor {
+	height:300px;
+	object-fit:cover;
+}
+.column {
+	  background-color:#9ca0b3;;
+}
+#social {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+.facebook .booksy p {
+    font-size: 3em;
+
+}
+
+.booksy {
+    margin-left: 0.1em;
+    margin-right: 1em;
+    padding-bottom: 0em;
+    padding-top: 0em;
+    padding-left: 1em;
+    padding-right: 0.1em;
+}
+.facebook {
+    margin-left: 1em;
+    margin-right: 0em;
+    padding-bottom: 0em;
+    padding-top: 0em;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+}
+#social a:link {
+    color: black;
+    text-decoration: none;
+}
+
+#social a:visited {
+    color: black;
+    text-decoration: none;
+}
+#social a:hover {
+    color: #9ca0b3;
+}
